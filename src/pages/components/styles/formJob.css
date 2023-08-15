@@ -1,0 +1,37 @@
+.form__job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+    padding: 60px 20px;
+    gap: 2rem;
+    border-radius: 20px;
+    background-color: white;
+
+    color: black;
+
+    position: fixed;
+    top: 130px;
+    left: 33vw;
+}
+
+.content__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.close__form {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
